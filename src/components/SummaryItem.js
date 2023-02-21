@@ -7,7 +7,7 @@ const SummaryItem = function (props) {
   return (
     <SummaryCard className={classes}>
       <div className="summary__item--img">
-        <img className="summary__item--icon" src={props.icon}></img>
+        <img className="summary__item--icon" src={props.icon} alt=""></img>
         <p
           className={`summary__item--category summary__item--category-${props.category.toLowerCase()}`}
         >
