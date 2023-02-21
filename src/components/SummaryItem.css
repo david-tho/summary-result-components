@@ -1,0 +1,59 @@
+.summary__item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  gap: 8rem;
+  padding: 1.4rem 1.5rem;
+}
+
+.summary__item--img {
+  display: flex;
+  gap: 1rem;
+
+  align-items: center;
+}
+
+.summary__item--icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.summary__item--reaction {
+  background-color: rgb(255, 87, 87, 0.1);
+}
+
+.summary__item--memory {
+  background-color: rgb(255, 176, 31, 0.1);
+}
+
+.summary__item--verbal {
+  background-color: rgb(0, 189, 145, 0.1);
+}
+
+.summary__item--visual {
+  background-color: rgb(17, 37, 212, 0.1);
+}
+
+.summary__item--category-reaction {
+  color: var(--color-light-red);
+}
+
+.summary__item--category-memory {
+  color: var(--color-orange-yellow);
+}
+
+.summary__item--category-verbal {
+  color: var(--color-green-teal);
+}
+
+.summary__item--category-visual {
+  color: var(--color-cobalt-blue);
+}
+
+.summary__item--score-current {
+  color: var(--color-dark-gray-blue);
+}
+
+.summary__item--score {
+  color: #888;
+}

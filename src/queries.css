@@ -1,0 +1,27 @@
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 68.75%;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .summary {
+    flex-direction: column;
+    padding: 0 !important;
+  }
+
+  .summary__box {
+    padding: 0.5rem 3rem !important;
+    padding-bottom: 2rem !important;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 50%;
+  }
+}

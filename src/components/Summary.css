@@ -1,0 +1,44 @@
+.summary {
+  display: flex;
+  gap: 3rem;
+
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  padding: 0 2rem 0 0;
+}
+
+.summary__box {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.summary__title {
+  font-size: 3.4rem;
+  margin-bottom: 2rem;
+}
+
+.summary__components {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  margin-bottom: 3rem;
+}
+
+.summary__btn {
+  border: none;
+  background-color: var(--color-dark-gray-blue);
+  border-radius: 10rem;
+  padding: 1.6rem 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.summary__btn:is(:hover, :active) {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue-background),
+    var(--color-light-royal-blue-background)
+  );
+}

@@ -1,0 +1,55 @@
+.summary__board {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-light-slate-blue-background),
+    var(--color-light-royal-blue-background)
+  );
+
+  padding: 2rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.summary__board--score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  border-radius: 50%;
+  width: 20rem;
+  background-image: linear-gradient(
+    to top,
+    var(--color-persian-blue-circle),
+    var(--color-violet-blue-circle)
+  );
+}
+
+.summary__board--title {
+  font-size: 3.4rem;
+  color: var(--color-white);
+}
+
+.summary__board--number {
+  font-size: 7rem;
+  color: var(--color-white);
+}
+
+.summary__board--maximum {
+  font-size: 2.6rem;
+}
+
+.summary__board--text {
+  text-align: center;
+  width: 75%;
+  font-size: 1.4rem;
+}
+
+.summary__board--maximum,
+.summary__board--text {
+  color: var(--color-light-lavender);
+}
