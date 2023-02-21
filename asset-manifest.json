@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rayzii-gh/summary-result-components/static/css/main.51430da8.css",
+    "main.js": "/rayzii-gh/summary-result-components/static/js/main.e7496f5c.js",
+    "index.html": "/rayzii-gh/summary-result-components/index.html",
+    "main.51430da8.css.map": "/rayzii-gh/summary-result-components/static/css/main.51430da8.css.map",
+    "main.e7496f5c.js.map": "/rayzii-gh/summary-result-components/static/js/main.e7496f5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51430da8.css",
+    "static/js/main.e7496f5c.js"
+  ]
+}
